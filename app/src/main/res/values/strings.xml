@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Urania</string>
+    <string name="username">Username</string>
+    <string name="enter_username">enter Username</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">enter your email</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login">LOGIN</string>
+    <string name="select_a_learn_package">Select a Learn-Package</string>
+</resources>
