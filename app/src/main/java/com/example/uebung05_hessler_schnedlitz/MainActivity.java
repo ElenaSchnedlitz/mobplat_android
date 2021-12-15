@@ -35,24 +35,14 @@ public class MainActivity extends AppCompatActivity {
             printText("Please fill all fields!");
             return;
         }
-
-
-        //User user = new User(name.getText().toString(), email.getText().toString());
         toHomePage();
     }
-//    private boolean isStringOrEmpty(Editable str){
-//        if(str == null || str.toString() == null || str.toString().length() == 0){
-//            return true;
-//        }
-//        return false;
-//    }
     private void printText(String message){
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 //
     private void toHomePage(){
         Intent intent = new Intent(getApplicationContext(), Home.class);
-        //intent.putExtra("user", user);
         startActivity(intent);
     }
 }

@@ -7,4 +7,7 @@
     <string name="login_button">LOGIN</string>
     <string name="login">LOGIN</string>
     <string name="select_a_learn_package">Select a Learn-Package</string>
+    <string name="zodiac_signs">Zodiac Signs</string>
+    <string name="planets">Planets</string>
+    <string name="houses">Houses</string>
 </resources>

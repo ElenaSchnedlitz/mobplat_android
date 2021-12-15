@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Uebung05_Heßler_Schnedlitz">
         <activity
+            android:name=".ZodiacSigns"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
