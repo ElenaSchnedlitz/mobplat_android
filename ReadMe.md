@@ -1,0 +1,1 @@
+In dieser Übung haben wir uns mehr auf die Ausführung der App fokussiert, als auf die Vervollständigung des gesamten Prototyps. Es ist die Idee nach dem Zodiac-Signs Screen auf eine Detailseite weitergeleitet zu werden, was wir, aufgrund von zu knappen Zeitressourcen nicht implementiert haben.
