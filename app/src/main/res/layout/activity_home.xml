@@ -15,12 +15,28 @@
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
-        <ImageButton
-            android:id="@+id/homeUrania"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="103dp"
-            android:background="@color/white"
-            app:srcCompat="@mipmap/ic_transparent_urania_foreground" />
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/homeUrania"
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:background="@color/white"
+                app:srcCompat="@mipmap/ic_transparent_urania_foreground" />
+
+            <ImageButton
+                android:id="@+id/logOutButton"
+                android:layout_width="134dp"
+                android:layout_height="92dp"
+                android:layout_gravity="end"
+                android:background="@color/white"
+                app:srcCompat="@drawable/ic_baseline_login_24" />
+
+
+        </FrameLayout>
+
 
         <TextView
             android:id="@+id/textView"
@@ -33,97 +49,97 @@
             android:textSize="30dp" />
 
 
-            <ScrollView
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="436dp"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-3dp">
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="436dp"
-                android:layout_marginBottom="100dp"
-                app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="-3dp">
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                <LinearLayout
+                <FrameLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:layout_height="wrap_content">
 
-                    <FrameLayout
+                    <ImageButton
+                        android:id="@+id/planetsHomeButton"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="200dp"
+                        android:padding="40dp"
+                        app:srcCompat="@mipmap/ic_planets_home_foreground" />
 
-                        <ImageButton
-                            android:id="@+id/planetsHomeButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:padding="40dp"
-                            app:srcCompat="@mipmap/ic_planets_home_foreground" />
-
-                        <TextView
-                            android:id="@+id/textView4"
-                            android:layout_width="match_parent"
-                            android:layout_height="66dp"
-                            android:layout_gravity="bottom"
-                            android:text="@string/planets"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textSize="25dp"
-                            tools:ignore="RtlCompat" />
-
-
-                    </FrameLayout>
-
-                    <FrameLayout
+                    <TextView
+                        android:id="@+id/textView4"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="66dp"
+                        android:layout_gravity="bottom"
+                        android:text="@string/planets"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        tools:ignore="RtlCompat" />
 
-                        <ImageButton
-                            android:id="@+id/signsHomeButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:padding="20dp"
-                            app:srcCompat="@mipmap/ic_signs_home_foreground" />
 
-                        <TextView
-                            android:id="@+id/textView5"
-                            android:layout_width="match_parent"
-                            android:layout_height="69dp"
-                            android:layout_gravity="bottom"
-                            android:text="@string/zodiac_signs"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textSize="25sp"
-                            tools:ignore="RtlCompat" />
-                    </FrameLayout>
+                </FrameLayout>
 
-                    <FrameLayout
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/signsHomeButton"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="200dp"
+                        android:padding="20dp"
+                        app:srcCompat="@mipmap/ic_signs_home_foreground" />
 
-                        <ImageButton
-                            android:id="@+id/housesHomeButton"
-                            android:layout_width="match_parent"
-                            android:layout_height="200dp"
-                            android:padding="20dp"
-                            app:srcCompat="@mipmap/ic_home_house_foreground" />
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="69dp"
+                        android:layout_gravity="bottom"
+                        android:text="@string/zodiac_signs"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        tools:ignore="RtlCompat" />
+                </FrameLayout>
 
-                        <TextView
-                            android:id="@+id/textView6"
-                            android:layout_width="match_parent"
-                            android:layout_height="54dp"
-                            android:layout_gravity="bottom"
-                            android:text="@string/houses"
-                            android:textAlignment="center"
-                            android:textColor="@color/black"
-                            android:textSize="25sp"
-                            tools:ignore="RtlCompat" />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/housesHomeButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:padding="20dp"
+                        app:srcCompat="@mipmap/ic_home_house_foreground" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="54dp"
+                        android:layout_gravity="bottom"
+                        android:text="@string/houses"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        tools:ignore="RtlCompat" />
 
 
-                    </FrameLayout>
+                </FrameLayout>
 
 
-                </LinearLayout>
+            </LinearLayout>
 
-            </ScrollView>
-        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

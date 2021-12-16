@@ -18,6 +18,7 @@ public class Home extends AppCompatActivity {
         ImageButton housesHome = (ImageButton) findViewById(R.id.housesHomeButton);
         ImageButton planetsHome = (ImageButton) findViewById(R.id.planetsHomeButton);
         ImageButton uraniaHome = (ImageButton) findViewById(R.id.homeUrania);
+        ImageButton logOut  = (ImageButton) findViewById(R.id.logOutButton);
 
         zodiacHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,14 @@ public class Home extends AppCompatActivity {
             public void onClick(View view) {
                 Intent home = new Intent(getApplicationContext(), Home.class);
                 startActivity(home);
+            }
+        });
+
+        logOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent logOut = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(logOut);
             }
         });
     }
