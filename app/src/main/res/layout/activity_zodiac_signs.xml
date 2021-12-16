@@ -56,17 +56,6 @@
                     android:layout_height="103dp"
                     app:srcCompat="@mipmap/ic_aries_foreground" />
 
-                <TextView
-                    android:id="@+id/textView3"
-                    android:layout_width="match_parent"
-                    android:layout_height="53dp"
-                    android:layout_gravity="bottom"
-                    android:gravity="center"
-                    android:text="@string/libra"
-                    android:textColor="@color/white"
-                    android:textFontWeight="700"
-                    android:textSize="20sp" />
-
             </FrameLayout>
 
 

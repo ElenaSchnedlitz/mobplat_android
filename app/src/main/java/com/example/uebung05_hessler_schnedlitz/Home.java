@@ -1,5 +1,10 @@
 package com.example.uebung05_hessler_schnedlitz;
-
+/*
+Author: Elena Schnedlitz
+Class: Home.java
+Project: Uebung05_Heßler_Schnedlitz
+Date: 16.12.2021
+ */
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;

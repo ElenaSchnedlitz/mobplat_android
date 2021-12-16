@@ -91,23 +91,30 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
+<!--                    <ImageButton-->
+<!--                        android:id="@+id/signsHomeButton"-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="200dp"-->
+<!--                        android:padding="20dp"-->
+<!--                        app:srcCompat="@mipmap/ic_signs_home_foreground" />-->
                     <ImageButton
-                        android:id="@+id/signsHomeButton"
+                        android:id="@+id/imageButton"
                         android:layout_width="match_parent"
-                        android:layout_height="200dp"
-                        android:padding="20dp"
-                        app:srcCompat="@mipmap/ic_signs_home_foreground" />
+                        android:layout_height="267dp"
+                        app:srcCompat="@mipmap/ic_signs_home_backup_foreground" />
 
                     <TextView
                         android:id="@+id/textView5"
                         android:layout_width="match_parent"
-                        android:layout_height="69dp"
+                        android:layout_height="56dp"
                         android:layout_gravity="bottom"
                         android:text="@string/zodiac_signs"
                         android:textAlignment="center"
                         android:textColor="@color/black"
                         android:textSize="25sp"
                         tools:ignore="RtlCompat" />
+
+
                 </FrameLayout>
 
                 <FrameLayout
